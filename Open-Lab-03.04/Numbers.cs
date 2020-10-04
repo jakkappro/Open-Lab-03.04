@@ -6,7 +6,7 @@ namespace Open_Lab_03._04
     {
         public string EvenOrOdd(int number)
         {
-            throw new NotImplementedException();
+            return number % 2 == 0 ? "even" : "odd";
         }
     }
 }
